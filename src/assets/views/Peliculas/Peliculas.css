@@ -1,0 +1,77 @@
+.bodyy {
+  width: 100vw;
+  height: 100vh;
+  background-color: #451c68; 
+}
+
+select {
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #1f0e2ec0;
+  color: white;
+}
+
+select:first-of-type {
+  margin-right: 10px;
+}
+
+.peliculas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 18%;
+  margin: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #c6c6c6;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-height: 60vh;
+  max-width: 40vw;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content p,
+.modal-content .modal-image,
+.modal-content .titulo,
+.modal-content .anio-lanzamiento,
+.modal-content .cerrar {
+  margin: px 0;
+}
+
+.modal-image {
+  width: 200px;
+  height: 250px;
+}

@@ -1,0 +1,40 @@
+
+.footer {
+  position: relative; 
+  width: 100%;
+  background-color: #00000082; 
+  color: white; 
+  text-align: center; 
+  padding: 3px 0; 
+}
+
+
+
+.footer-content {
+  padding-left: 30px; 
+}
+
+.footer-link {
+  color: white; 
+  text-decoration: none; 
+  margin: 0 10px; 
+  text-align: justify; 
+}
+
+.social-icons {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: white;
+}
+
+.download-buttons img {
+  height: 40px; 
+  width: 3 0px; 
+  margin-right: 10px;
+  
+}
